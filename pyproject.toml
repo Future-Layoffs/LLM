@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "llm"
+version = "0.1.0"
+description = "This is the LLM feature for Future Layoffs"
+authors = ["Sayantan <sayantann2002@gmail.com>"]
+license = "ISC"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.28.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
