@@ -5,7 +5,7 @@ description = "This is the LLM feature for Future Layoffs"
 authors = ["Sayantan <sayantann2002@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.11,<3.12,>=3.10"
+python = ">=3.9,<3.12"
 fastapi = "^0.110.0"
 uvicorn = "^0.28.0"
 langchain = "^0.1.12"
