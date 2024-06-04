@@ -38,7 +38,7 @@ async def ask_question(request: Question, state: GlobalState = Depends(GlobalSta
     user_input = request.question
     
     # Use Cohere instead of OpenAI
-    cohere_api_key = '1JZIsL1ghg1B0nHRX3S6gIPZ8Ngi0nYKFy74OxnB'
+    cohere_api_key = '3gV8JUYV4oqWAk3CoueXew4J2Kpbi6fQTaK5Q0rv'
     model_name="command"
     llm = Cohere(cohere_api_key=cohere_api_key, model="command", temperature=0.6)
 
